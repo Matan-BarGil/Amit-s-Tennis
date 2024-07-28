@@ -1,0 +1,130 @@
+body{
+    background-image: url(backgroundimage.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+nav{
+    position: fixed;
+    width: 89.17%;
+    background-color: rgba(33, 30, 30, 0.9);
+    top: 0px;
+    margin-left: 4.90%;
+    z-index: 20;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav li{
+    background-color: whitesmoke;
+    padding: 9px 54px;
+    border-radius: 10%;
+    font-size: 250%;
+    border: 1px solid brown;
+    transition: all 0.3s ease-in;
+}
+nav li:hover{
+    background-color: rgba(33, 30, 30, 0.9);;
+    color: whitesmoke;
+}
+nav a{
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(101, 153, 155);
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    top: 90px;
+    
+}
+
+.charactes-navigation{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    margin-bottom: 90px;
+}
+
+.charactes-navigation img{
+    height:160px;
+    width: 120px;
+    border-radius: 15%;
+    border: 3px solid black;
+    transition: scale 0.3s ease-in;
+}
+
+.charactes-navigation img:hover{
+    border-color: blue;
+    scale: 1.2;
+}
+
+.characters-info{
+    border: 5px solid black;
+    border-radius: 3%;
+    background-color: gainsboro;
+    display: inline-grid;
+    grid-template: repeat(10, 1fr)/repeat(10, 1fr);
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    justify-items: stretch;
+    margin: 60px 10%;
+    box-shadow: 10px 10px 5px black;
+}
+
+.characters-info h2{
+    grid-row: 1/4;
+    grid-column: 1/11;
+    text-align: center;
+    font-size: 500%;
+    word-spacing: 30px;
+    align-self: center;
+}
+
+.characters-info img{
+    grid-row: 4/11;
+    grid-column: 1/6;
+    border-radius: 15%;
+    justify-self: center;
+    max-height: 90%;
+    max-width: 50%;
+    min-height: 89%;
+    min-width: 50%;
+
+}
+
+.characters-info p{
+    grid-row: 4/6;
+    grid-column: 6/11;
+    font-size: 180%;
+    align-self: center;
+    width: 90%;
+}
+
+.characters-info ul{
+    grid-row:6/11;
+    grid-column: 6/11;
+    list-style-type: circle;
+}
+
+.characters-info ul li{
+    font-size: 130%;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+
+
+

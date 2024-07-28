@@ -1,0 +1,150 @@
+body{
+    background-image: url(backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+nav{
+    position: fixed;
+    width: 89.17%;
+    background-color: rgba(33, 30, 30, 0.9);
+    top: 0px;
+    margin-left: 4.90%;
+    z-index: 20;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav li{
+    background-color: whitesmoke;
+    padding: 9px 54px;
+    border-radius: 10%;
+    font-size: 250%;
+    border: 1px solid brown;
+    transition: all 0.3s ease-in;
+}
+nav li:hover{
+    background-color: rgba(33, 30, 30, 0.9);;
+    color: whitesmoke;
+}
+nav a{
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(101, 153, 155);
+    width: 90%;
+    margin: 0px auto;
+    
+}
+
+.info h2{
+    text-align: center;
+    font-size: 700%;
+}
+
+.info p{
+    width: 50%;
+    display: inline-block;
+    font-size: 150%;
+    margin-left:100px;
+    position: relative;
+    bottom: 80px;
+    line-height: 1.5;
+}
+
+.info img{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 100px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.form h2{
+    font-size: 450%;
+    text-align: center;
+    
+    
+}
+
+.form p{
+    font-size: 200%;
+}
+
+#left-side{
+    width: 50%;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    bottom: 60px;
+}
+
+
+
+form{
+    border: 1px solid red;
+    width: 30%;
+    background-color: white;
+    border-radius: 10%;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.input{
+    display: block;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 150%;
+}
+
+.input input, #data{
+    width: 200px;
+    height: 20px;
+    position: relative;
+    bottom: 5px;
+    display: block;
+    margin:10px auto;
+}
+
+#data{
+    height: 60px;
+}
+
+#input-send{
+    height: 40px;
+    width: 160px;
+    font-size: 150%;
+    margin-left: 32%;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    transition: all 0.3s ease-in;
+    opacity: 0.7;
+}
+
+#input-send:hover{
+    background-color: white;
+    color:black;
+    opacity: 1;
+}
+
+
+.input label{
+    opacity: 0.7;
+}
+
+.input label:hover{
+    opacity: 1;
+}
+
+
+footer{
+    text-align: center;
+}
