@@ -155,7 +155,9 @@ footer{
     main, nav{
         width: 100%;
     }
-    
+    nav li{
+        font-size: 100%;
+    }
     
     .info p{
         width: 90%;

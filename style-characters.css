@@ -130,7 +130,9 @@ footer{
     main, nav{
         width: 100%;
     }
-
+    nav li{
+        font-size: 100%;
+    }
     .characters-info img{
         grid-row: 4/9;
     }
