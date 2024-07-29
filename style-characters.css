@@ -125,6 +125,20 @@ footer{
     top: 70px;
 }
 
+@media (max-width: 600px) {
+   
+    main, nav{
+        width: 100%;
+    }
 
+    .characters-info img{
+        grid-row: 4/9;
+    }
+
+    .characters-info p{
+        font-size: 100px;
+    }
+
+}
 
 

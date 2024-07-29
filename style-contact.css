@@ -148,3 +148,37 @@ form{
 footer{
     text-align: center;
 }
+
+
+@media (max-width: 600px) {
+   
+    main, nav{
+        width: 100%;
+    }
+    
+    
+    .info p{
+        width: 90%;
+        display: block;
+        font-size: 150%;
+        margin:auto;
+        position: relative;
+        bottom: 80px;
+        line-height: 1.5;
+    }
+
+    .info img{
+        width: 100%;
+        height: auto;
+        margin:auto;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .form , #left-side{
+        display: block;
+        margin:auto;
+    }
+
+
+  }
