@@ -125,7 +125,7 @@ footer{
     top: 70px;
 }
 
-@media (max-width: 800px) {
+@media only screen and (orientation: portrait) {
    
     main, nav{
         width: 100%;

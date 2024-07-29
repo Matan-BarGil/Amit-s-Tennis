@@ -128,7 +128,7 @@ footer{
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media only screen and (orientation: portrait) {
     .container{
         grid-template-columns: 1fr;
     }
