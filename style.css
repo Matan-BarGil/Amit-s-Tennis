@@ -137,19 +137,27 @@ footer{
     }
     nav li{
         font-size: 100%;
+        padding:auto;
     }
     h1{
         font-size: 200%;
+        position:relative;
+        right: 60px;
     }
     p{
-        font-size: 100%;
+        font-size: 50%;
     }
     .item img{
-        width: 90%;
-        height: 200px;
+        height: 150px;
+        position: relative;
+        top: 40px;
     }
     .chapters h2{
         font-size: 150%;
+    }
+
+    figcaption{
+        font-size: 70%;
     }
 
   }
