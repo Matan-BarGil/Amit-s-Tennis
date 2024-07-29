@@ -125,7 +125,7 @@ footer{
     top: 70px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
    
     main, nav{
         width: 100%;
