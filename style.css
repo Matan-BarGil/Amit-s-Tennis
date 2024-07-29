@@ -19,6 +19,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    flex-shrink: 1;
 }
 nav li{
     background-color: whitesmoke;
@@ -27,6 +28,7 @@ nav li{
     font-size: 250%;
     border: 1px solid brown;
     transition: all 0.3s ease-in;
+    flex-shrink: 1;
     
 }
 nav li:hover{
@@ -49,10 +51,9 @@ h1{
     text-align: center;
     display: inline;
     position: relative;
-    top: 170px;
-    left: 170px;
+    top: 8rem;
+    left: 8rem;
     z-index: 2;
-    margin-top: 0px;
 
 }
 
@@ -129,37 +130,32 @@ footer{
 }
 
 @media only screen and (orientation: portrait) {
-    .container{
-        grid-template-columns: 1fr;
-    }
-    main, nav{
+    main{
         width: 100%;
+
     }
-    nav li{
-        font-size: 100%;
-        padding:auto;
+    nav{
+        width: 100%;
+        margin-left: 0;
+
     }
-    h1{
-        font-size: 200%;
-        position:relative;
-        right: 60px;
-    }
-    p{
-        font-size: 50%;
-    }
-    .item img{
-        height: 150px;
-        position: relative;
-        top: 40px;
-    }
-    .chapters h2{
-        font-size: 150%;
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
 
-    figcaption{
-        font-size: 70%;
+    nav li {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 120%;
+        border: none;
+        border-bottom: 1px solid brown;
     }
 
+    nav li:hover {
+        background-color: rgba(33, 30, 30, 0.9);
+    }
   }
 
 
