@@ -165,8 +165,8 @@ footer{
     }
 
     nav li {
-    font-size: 25px;
-    padding: 7px 20px;
+    font-size: 15px;
+    padding: 5px 13px;
     flex-shrink: 1;
     }
 
@@ -213,6 +213,10 @@ footer{
         display: inline-block;
         margin-left: 10%;
         margin-bottom: 100px;
+    }
+
+    #input-send{   
+        margin-left: 25%;
     }
 
 

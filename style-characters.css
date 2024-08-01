@@ -141,8 +141,8 @@ footer{
     }
 
     nav li {
-    font-size: 25px;
-    padding: 7px 20px;
+    font-size: 15px;
+    padding: 5px 13px;
     flex-shrink: 1;
     }
 
@@ -154,8 +154,8 @@ footer{
     }
     
     .charactes-navigation img{
-        height:62px;
-        width: 46px;
+        height:54px;
+        width: 40px;
     }
 
 
@@ -184,7 +184,7 @@ footer{
     .characters-info p{
         grid-row: 3/6;
         grid-column: 6/11;
-        font-size: 120%;
+        font-size: 70%;
     }
     .characters-info ul{
         margin-left: -28px;
@@ -192,7 +192,7 @@ footer{
     
     
     .characters-info ul li{
-        font-size: 90%;
+        font-size: 70%;
     }
     
   }
