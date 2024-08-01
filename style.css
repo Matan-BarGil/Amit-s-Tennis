@@ -180,8 +180,8 @@ footer{
         margin: auto 10%;
     }
     .item figcaption{
-        bottom: 36px;
-        font-size: 160%;
+        bottom: 35px;
+        font-size: 150%;
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
         border-radius: 3%;
