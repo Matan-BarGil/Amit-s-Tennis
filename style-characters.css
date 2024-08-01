@@ -161,7 +161,7 @@ footer{
 
     .characters-info{
         grid-template: repeat(10, 1fr)/repeat(10, 1fr);
-        height: 400px;
+        height: 300px;
         justify-items: stretch;
         margin: 40px 10%;
     }
