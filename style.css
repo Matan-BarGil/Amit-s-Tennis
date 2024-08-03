@@ -95,6 +95,16 @@ h1{
     
 }
 
+.container1{
+    display: grid;
+    grid-template:repeat(1, 1fr)/ repeat(3, 1fr);
+    justify-items: center;
+    gap: 0px 40px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .item{
     margin: 0px;
     transition: transform 0.3s ease-in;
@@ -174,7 +184,7 @@ footer{
         text-align: center;
     }
 
-    .container{
+    .container , .container1{
         grid-template-columns: 1fr;
         width: 80%;
         margin: auto 10%;
